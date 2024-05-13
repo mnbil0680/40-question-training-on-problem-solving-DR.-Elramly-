@@ -18,7 +18,7 @@ int main()
 
 
 	===================
-	SECOND LOOP
+	SECOND LOOP 
 	===================
 	2>=0 // true
 	2*2 = 4 print(4)
@@ -43,12 +43,13 @@ int main()
 	FIFTH LOOP (BREAK)
 	===================
 	-1>=0 // FALSE
-
-
+	
+	
 	*/
 	cout << n << endl; // print(-1)
 
 	// BE CARFUL from BELOW CODE
+	
 	while (n < 4)
 		cout << ++n << endl;//
 	/*
@@ -78,7 +79,7 @@ int main()
 	++n  ==> value(3)  print(3)
 
 	===================
-	FIFTH LOOP (BREAK)
+	FIFTH LOOP 
 	===================
 	3<4 // true
 	++n  ==> value(4)  print(4)
@@ -90,6 +91,8 @@ int main()
 
 
 */
+
+
 	cout << n << endl; // print(4)
 
 	while (n >= 0)
@@ -101,7 +104,7 @@ int main()
 	4>=0 // true
 	Value n before operation = 4
 
-	n = n/2 ==>  4/2 = 2
+	n = n/2 ==>  4/2 = 2 
 
 	Value n before operation = 2
 	print(2)
@@ -134,7 +137,7 @@ int main()
 	0>=0 // true
 	Value n before operation = 0
 
-	n = n/2 ==>  0/2= 0
+	n = n/2 ==>  0/2= 0 
 
 	Value n before operation = 0
 	print(0)
@@ -143,3 +146,4 @@ int main()
 
 	return 0;
 }
+
